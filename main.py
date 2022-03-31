@@ -13,7 +13,7 @@ keep_alive()
 class MyClient(discord.Client):
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
-    self.target_message_id = 941528477247635486
+    self.target_message_id = 958959832797433886
   
   async def on_ready(self):
     print('We have logged in as {0.user}'.format(client))
